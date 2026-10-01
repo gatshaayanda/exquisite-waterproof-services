@@ -15,4 +15,37 @@
 .offlineBanner{position:fixed;left:10px;right:10px;bottom:10px;z-index:50;background:#173629;color:#e7f7ee;border:1px solid #527865;border-radius:12px;padding:11px 14px;text-align:center;font-size:.8rem;font-weight:850}.pwaInstall,.pwaUpdate{position:fixed;right:12px;bottom:68px;z-index:51;border:1px solid #527865;background:#10271c;color:#fff;border-radius:12px;padding:11px 14px;font-weight:900}.pwaUpdate{left:12px;right:12px;display:flex;align-items:center;justify-content:space-between}
 @media(max-width:800px){body{overflow-x:hidden}.navInner{min-height:64px}.brand{min-height:48px}.button{min-height:48px}.nav .button{padding-inline:14px}.heroCopy{width:100%}.heroGrid,.damageGrid,.contactGrid{min-width:0}.roofVisual{width:100%;min-width:0}.serviceGrid article{min-width:0}.sectionHead{align-items:flex-start;flex-direction:column}.contactCard{min-width:0}.orderWrap,.adminShell{max-width:100%;}.queueRow,.queueActions{min-width:0}.fieldGrid input,.fieldGrid select,.fieldGrid textarea,.adminForm input,.adminForm textarea{font-size:16px}.footerInner .button{width:100%}}
 @media(max-width:800px){.navLinks{display:none}.hero{padding:52px 0 60px}.heroGrid,.damageGrid,.contactGrid{grid-template-columns:1fr}.roofVisual{min-height:330px}.serviceGrid{grid-template-columns:1fr}.stats{grid-template-columns:1fr 1fr}.formFooter{align-items:stretch;flex-direction:column}}
-@media(max-width:560px){html{scroll-padding-top:70px}.container{width:calc(100% - 20px)}.noticeBar{font-size:.62rem}.navInner{gap:8px}.brand{gap:7px;font-size:.82rem}.brandMark{width:38px;height:38px;border-radius:9px}.nav .button{font-size:.66rem;padding:10px 11px}.hero{padding:38px 0 48px}.hero h1{font-size:clamp(3.15rem,16vw,4.5rem);line-height:.86}.lead{font-size:.95rem}.actions{width:100%}.actions .button{flex:1 1 150px}.promiseRow div{min-width:0}.roofVisual{min-height:270px;border-radius:16px}.roofShape{left:7%;right:7%;top:17%;height:57%}.roofShape span{font-size:clamp(1.65rem,9vw,3rem)}.roofShape span:nth-child(3){font-size:.72rem}.section,.damageSection{padding:58px 0}.sectionHead h2,.damageGrid h2,.contactGrid h2{font-size:clamp(2.35rem,12vw,4rem)}.serviceGrid article{padding:20px;min-height:0}.orderHeader{gap:10px}.orderHeader .button{padding-inline:12px}.orderCard,.adminPanel{padding:15px;border-radius:14px}.confirm{padding:40px 15px}.formFooter{gap:12px}.footer{padding:28px 0}.footerInner{gap:16px}.offlineBanner{bottom:calc(8px + env(safe-area-inset-bottom));left:8px;right:8px}.pwaInstall{bottom:calc(64px + env(safe-area-inset-bottom));left:10px;right:10px}.pwaUpdate{bottom:calc(64px + env(safe-area-inset-bottom));left:10px;right:10px}}{.container{width:min(100% - 20px,1120px)}.noticeInner{justify-content:center}.noticeInner span{display:none}.hero h1{font-size:3.8rem}.promiseRow{flex-direction:column}.fieldGrid{grid-template-columns:1fr}.fieldFull{grid-column:auto}.orderCard,.adminPanel{padding:16px}.queueRow{grid-template-columns:1fr}.queueActions{justify-content:flex-start}.footerInner{display:grid;grid-template-columns:1fr}}
+@media(max-width:560px){
+html{scroll-padding-top:70px}
+.container{width:calc(100% - 20px)}
+.noticeBar{font-size:.62rem}
+.navInner{gap:8px}
+.brand{gap:7px;font-size:.82rem}
+.brandMark{width:38px;height:38px;border-radius:9px}
+.nav .button{font-size:.66rem;padding:10px 11px}
+.hero{padding:38px 0 48px}
+.hero h1{font-size:clamp(3.15rem,16vw,4.5rem);line-height:.86}
+.lead{font-size:.95rem}
+.actions{width:100%}
+.actions .button{flex:1 1 150px}
+.promiseRow{gap:8px}
+.promiseRow div{min-width:0;flex:1}
+.roofVisual{min-height:270px;border-radius:16px}
+.roofShape{left:7%;right:7%;top:17%;height:57%}
+.roofShape span{font-size:clamp(1.65rem,9vw,3rem)}
+.roofShape span:nth-child(3){font-size:.72rem}
+.section,.damageSection{padding:58px 0}
+.sectionHead h2,.damageGrid h2,.contactGrid h2{font-size:clamp(2.35rem,12vw,4rem)}
+.serviceGrid article{padding:20px;min-height:0}
+.orderHeader{gap:10px}
+.orderHeader .button{padding-inline:12px}
+.orderCard,.adminPanel{padding:15px;border-radius:14px}
+.confirm{padding:40px 15px}
+.formFooter{gap:12px}
+.footer{padding:28px 0}
+.footerInner{gap:16px;display:grid;grid-template-columns:1fr}
+.footerInner .button{width:100%}
+.offlineBanner{bottom:calc(8px + env(safe-area-inset-bottom));left:8px;right:8px}
+.pwaInstall{bottom:calc(64px + env(safe-area-inset-bottom));left:10px;right:10px}
+.pwaUpdate{bottom:calc(64px + env(safe-area-inset-bottom));left:10px;right:10px}
+}
