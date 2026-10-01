@@ -1,24 +1,2 @@
 import Link from "next/link";
-
-export default function OfflinePage() {
-  return (
-    <main className="orderPage">
-      <div className="orderWrap">
-        <div className="orderHeader">
-          <Link href="/" className="logo"><span className="logoMark">B</span><span>BOEMO</span></Link>
-        </div>
-        <section className="orderCard confirm">
-          <div className="confirmIcon">📶</div>
-          <span className="kicker">Offline mode</span>
-          <h1>BOEMO is still here.</h1>
-          <p>The BOEMO app shell and previously loaded public pages can remain available on this device while your connection is away.</p>
-          <p>Firestore can keep an eligible order write locally and synchronize it later, but the kitchen has not received an offline order until Firebase confirms synchronization.</p>
-          <div className="actions centered">
-            <Link className="button buttonPrimary" href="/order">Open Order</Link>
-            <Link className="button buttonLight" href="/">Open BOEMO</Link>
-          </div>
-        </section>
-      </div>
-    </main>
-  );
-}
+export default function OfflinePage(){return <main className="orderPage"><div className="orderWrap"><div className="orderHeader"><Link href="/" className="brand"><span className="brandMark">E</span><span>EXQUISITE</span></Link><a className="button buttonLight" href="tel:71638995">71638995</a></div><section className="orderCard confirm"><div className="confirmIcon">↻</div><span className="kicker">Offline mode</span><h1>Exquisite is still here.</h1><p>The installed app can keep its public shell available on this device. Eligible Firestore enquiry writes can wait for reconnection and synchronize later.</p><p>Until Firebase confirms synchronization, an offline enquiry has not reached Exquisite.</p><div className="actions centered"><Link className="button buttonPrimary" href="/order">Make an enquiry</Link><Link className="button buttonLight" href="/">Open Exquisite</Link></div></section></div></main>}
