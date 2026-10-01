@@ -33,7 +33,7 @@ Statuses: New → Contacted → Assessment Scheduled → Quote / Follow-up → C
 An offline save must never be presented as “received by Exquisite” until Firebase confirms synchronization.
 
 ## Offline-first PWA
-Maintain an installable manifest, service worker, offline route, public app-shell caching and Firestore persistent local cache. The UI must distinguish local/offline state from backend-confirmed state.
+Maintain an installable manifest, Exquisite-branded icon, service worker, offline route, public app-shell caching and Firestore persistent local cache. On every release, invalidate inherited caches so a previous project's icon/assets cannot survive installation. The UI must distinguish local/offline state from backend-confirmed state. Mobile layouts must remain touch-friendly, avoid horizontal overflow, and use mobile-safe viewport/spacing behavior.
 
 Do not cache private Firebase responses indiscriminately or large media blobs in the service-worker shell.
 
