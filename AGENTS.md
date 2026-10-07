@@ -57,4 +57,6 @@ Before a meaningful checkpoint:
 Review the actual diff before checkpointing.
 
 ## Current implementation direction
-This checkpoint removes BOEMO customer language and food/order semantics while preserving the proven Next.js + Firebase + PWA foundation. Subsequent work can deepen enquiry syncing, media, customer follow-up, and owner-controlled content.
+The public site now follows a service-contractor information architecture inspired by the supplied Roof Doctors reference: strong primary call-to-action, clear service choices, proof/commitment messaging, a simple process, direct contact and a conversion path into the existing enquiry workflow. It deliberately does not copy Roof Doctors claims, California-specific content, logos, testimonials, licensing claims, financing partners, insurance claims, prices, project counts, or other facts that have not been supplied for Exquisite.
+
+The next product depth should remain operational: enquiry syncing, verified owner-controlled content, assessment detail, job follow-up, and supplied Exquisite media.
